@@ -39,20 +39,20 @@ body{
 .logo-berk{
     font-size: 1.6rem;
     font-weight: 700;
-    color: var(--color-naranja) !important;
+    color: var(--color-naranja) ;
 }
 
 .nav-link{
-    color: var(--color-claro) !important;
+    color: var(--color-claro) ;
     transition: 0.3s;
 }
 
 .nav-link:hover{
-    color: var(--color-naranja) !important;
+    color: var(--color-naranja) ;
 }
 
 .pagina-activa{
-    color: var(--color-naranja) !important;
+    color: var(--color-naranja) ;
     font-weight: 600;
 }
 
