@@ -1,0 +1,118 @@
+/* ========= COLORES GLOBALES ========= */
+
+:root{
+    --color-fondo: #111827;
+    --color-secundario: #1f2937;
+    --color-naranja: #f97316;
+    --color-claro: #f3f4f6;
+    --color-texto: #d1d5db;
+}
+
+/* ========= ESTILOS GENERALES ========= */
+
+html{
+    scroll-behavior: smooth;
+}
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    font-family: 'Poppins', sans-serif;
+    background-color: var(--color-fondo);
+    color: var(--color-texto);
+}
+
+/* ========= NAVBAR ========= */
+
+.navbar{
+    background-color: rgba(17, 24, 39, 0.82);
+    backdrop-filter: blur(10px);
+    border-bottom: 1px solid rgba(255,255,255,0.05);
+    padding: 14px 0;
+    transition: 0.3s;
+}
+
+.logo-berk{
+    font-size: 1.6rem;
+    font-weight: 700;
+    color: var(--color-naranja) !important;
+}
+
+.nav-link{
+    color: var(--color-claro) !important;
+    transition: 0.3s;
+}
+
+.nav-link:hover{
+    color: var(--color-naranja) !important;
+}
+
+.pagina-activa{
+    color: var(--color-naranja) !important;
+    font-weight: 600;
+}
+
+/* ========= BOTONES ========= */
+
+.boton-berk{
+    background-color: var(--color-naranja);
+    border: none;
+    padding: 12px 24px;
+    border-radius: 10px;
+    color: white;
+    font-weight: 600;
+    transition: 0.3s;
+}
+
+.boton-berk:hover{
+    background-color: #ea580c;
+    transform: translateY(-2px);
+}
+
+/* ========= TARJETAS ========= */
+
+.tarjeta-berk{
+    background-color: var(--color-secundario);
+    border: none;
+    border-radius: 18px;
+    overflow: hidden;
+    transition: 0.3s;
+    height: 100%;
+}
+
+.tarjeta-berk:hover{
+    transform: translateY(-10px);
+    box-shadow: 0 15px 35px rgba(0,0,0,0.35);
+}
+
+.tarjeta-berk img{
+    height: 220px;
+    object-fit: cover;
+}
+
+.tarjeta-berk .card-body{
+    color: white;
+}
+
+/* ========= FOOTER ========= */
+
+footer{
+    background-color: #0b1120;
+    padding: 40px 0;
+    margin-top: 80px;
+}
+
+.redes-footer a{
+    color: var(--color-claro);
+    margin: 0 10px;
+    font-size: 1.2rem;
+    transition: 0.3s;
+}
+
+.redes-footer a:hover{
+    color: var(--color-naranja);
+}
