@@ -1,0 +1,101 @@
+/* ===================================
+   ENCABEZADO DE CURSOS
+=================================== */
+
+.header-cursos{
+    padding: 120px 0 60px;
+    text-align: center;
+}
+
+.header-cursos h1{
+    color: var(--color-claro);
+    font-size: 3rem;
+    font-weight: 700;
+}
+
+.header-cursos p{
+    max-width: 800px;
+    margin: 15px auto;
+    color: var(--color-texto);
+}
+
+.linea-naranja{
+    width: 90px;
+    height: 4px;
+    background-color: var(--color-naranja);
+    margin: 20px auto;
+    border-radius: 20px;
+}
+
+/* ===================================
+   BÚSQUEDA
+=================================== */
+
+.buscador-cursos{
+    margin-bottom: 60px;
+}
+
+.buscador-cursos input{
+    background-color: var(--color-secundario);
+    border: 1px solid rgba(255,255,255,0.1);
+    color: white;
+    border-radius: 12px;
+    padding: 15px;
+}
+
+.buscador-cursos input::placeholder{
+    color: #9ca3af;
+}
+
+/* ===================================
+   CATEGORÍAS
+=================================== */
+
+.titulo-categoria{
+    color: var(--color-naranja);
+    font-size: 2rem;
+    font-weight: 700;
+    margin-bottom: 30px;
+    text-align: center;
+}
+
+/* ===================================
+   INFORMACIÓN DE CURSOS
+=================================== */
+
+.categoria{
+    color: #f97316;
+    font-weight: 600;
+    font-size: 0.9rem;
+}
+
+.duracion,
+.precio{
+    margin-bottom: 5px;
+    font-size: 0.95rem;
+}
+
+.precio{
+    color: #f97316;
+    font-weight: 700;
+}
+
+/* ===================================
+   FOOTER CURSOS
+=================================== */
+
+.footer-berk{
+    background-color: #0b1120;
+    padding: 40px 0;
+    margin-top: 80px;
+    text-align: center;
+}
+
+.footer-berk h4{
+    color: var(--color-naranja);
+    margin-bottom: 10px;
+}
+
+.footer-berk p{
+    color: var(--color-texto);
+}
