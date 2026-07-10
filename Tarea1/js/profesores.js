@@ -1,3 +1,4 @@
+<<<<<<< HEAD
  const profesores = [
     {
         nombre: "Juan Pérez",
@@ -102,3 +103,9 @@ document.addEventListener("click", (e) => {
 
     modal.show();
 });
+=======
+/*
+TAREA 2 - CÓDIGO COMENTADO PARA REACTIVAR EN TAREA 4.
+El array y el modal de profesores ya no se ejecutan; la lista y el detalle individual se generan desde MySQL con PHP.
+*/
+>>>>>>> c183d1c (Tarea 3 - Migración a MVC)

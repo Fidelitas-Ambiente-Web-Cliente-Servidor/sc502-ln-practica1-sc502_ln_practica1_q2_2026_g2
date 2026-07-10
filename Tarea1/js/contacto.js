@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 const formulario = document.getElementById("formContacto");
 const nombre = document.getElementById("nombre");
 const correo = document.getElementById("correo");
@@ -152,3 +153,10 @@ formulario.addEventListener("submit", (e) => {
     mostrarError("errorAsunto", "");
     mostrarError("errorMensaje", "");
 });
+=======
+/*
+Validación básica conservada para Tarea 1/Tarea 4.
+La validación principal también se ejecuta en el servidor para evitar datos inválidos.
+*/
+document.addEventListener('DOMContentLoaded',()=>{const form=document.querySelector('form[action*="contacto"]');if(!form)return;form.addEventListener('submit',e=>{const correo=form.querySelector('[name="correo"]');if(correo && !correo.checkValidity()){e.preventDefault();correo.reportValidity();}});});
+>>>>>>> c183d1c (Tarea 3 - Migración a MVC)
